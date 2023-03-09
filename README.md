@@ -1,3 +1,18 @@
-# MDC-101 for Material Components for Android (Kotlin)
+# Material Components for Android (Kotlin)
 
-Contains starter code structure for the MDC-101 Kotlin codelab.
+Contains code examples for the MDC Kotlin codelab.
+
+# Initial State 
+
+<img src='GIFs/initial_state.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+
+# MDC 101 
+
+Video Walkthrough
+<img src='walkthrough_101.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+
+
+
+Git created with LICEcap
