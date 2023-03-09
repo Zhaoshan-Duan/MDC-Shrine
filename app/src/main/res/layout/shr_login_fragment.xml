@@ -45,8 +45,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
         </com.google.android.material.textfield.TextInputLayout>
+
         <!-- Snippet from "Add buttons" section goes here. -->
         <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/password_text_input"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
@@ -71,8 +73,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentRight="true"
-                android:text="@string/shr_button_next"
-                />
+                android:text="@string/shr_button_next" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/cancel_button"
@@ -83,8 +84,7 @@
                 android:layout_marginRight="12dp"
                 android:layout_toStartOf="@id/next_button"
                 android:layout_toLeftOf="@id/next_button"
-                android:text="@string/shr_button_cancel"
-                />
+                android:text="@string/shr_button_cancel" />
 
         </RelativeLayout>
 
