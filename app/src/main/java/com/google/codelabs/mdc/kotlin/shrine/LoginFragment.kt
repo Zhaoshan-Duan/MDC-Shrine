@@ -29,7 +29,7 @@ class LoginFragment : Fragment() {
                 // clear the error
                 password_text_input.error = null
 
-                //navigate to the next fragment
+                //navigate to the next fragment: false tells the activity to not add the current fragment to the backstack
                 (activity as NavigationHost).navigateTo(ProductGridFragment(), false)
             }
         }
