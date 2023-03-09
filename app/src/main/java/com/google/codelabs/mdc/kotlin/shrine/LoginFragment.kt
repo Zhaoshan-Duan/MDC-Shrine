@@ -26,7 +26,11 @@ class LoginFragment : Fragment() {
             if (!isPasswordValid(password_edit_text.text!!)) {
                 password_text_input.error = getString(R.string.shr_error_password)
             } else {
+                // clear the error
                 password_text_input.error = null
+
+                //navigate to the next fragment
+                (activity as NavigationHost).navigateTo(ProductGridFragment(), false)
             }
         }
 
