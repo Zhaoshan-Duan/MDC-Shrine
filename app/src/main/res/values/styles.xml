@@ -51,7 +51,7 @@
     </style>
 
     <style name="Widget.Shrine.Backdrop" parent="">
-        <iten name="android:background">?attr/colorAccent</iten>
+        <item name="android:background">?attr/colorAccent</item>
     </style>
 
 </resources>
