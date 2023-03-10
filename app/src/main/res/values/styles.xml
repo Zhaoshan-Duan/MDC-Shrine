@@ -50,4 +50,8 @@
         <item name="android:textColor">?android:attr/textColorPrimary</item>
     </style>
 
+    <style name="Widget.Shrine.Backdrop" parent="">
+        <iten name="android:background">?attr/colorAccent</iten>
+    </style>
+
 </resources>
